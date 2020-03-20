@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styled from 'styled-components';
 
 const Home = () => (
   <div className="container">
@@ -12,9 +13,10 @@ const Home = () => (
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
-      <p className="description">
+      
+      <Description>
         Get started by editing <code>pages/index.js</code>
-      </p>
+      </Description>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
@@ -201,3 +203,9 @@ const Home = () => (
 )
 
 export default Home
+
+const Description = styled.p`
+        line-height: 1.5;
+        font-size: 1.5rem;
+  text-align: center;
+`
