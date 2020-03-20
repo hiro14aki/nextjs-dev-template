@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styled from 'styled-components';
+import Head from "next/head";
+import styled from "styled-components";
 
 const Home = () => (
   <div className="container">
@@ -13,7 +13,6 @@ const Home = () => (
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
-      
       <Description>
         Get started by editing <code>pages/index.js</code>
       </Description>
@@ -200,12 +199,12 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
 
 const Description = styled.p`
-        line-height: 1.5;
-        font-size: 1.5rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
   text-align: center;
-`
+`;
